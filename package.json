@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "start": "lerna run start",
-    "bootstrap": "lerna bootstrap"
+    "bootstrap": "lerna bootstrap",
+    "start:kafka": "docker-compose up -d"
   },
   "devDependencies": {
     "eslint": "^6.7.2",
