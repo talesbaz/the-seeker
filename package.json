@@ -4,7 +4,7 @@
   "scripts": {
     "start": "lerna run start",
     "bootstrap": "lerna bootstrap",
-    "start:kafka": "docker-compose up -d"
+    "start:kafka": "docker-compose up -d --remove-orphans"
   },
   "devDependencies": {
     "eslint": "^6.7.2",

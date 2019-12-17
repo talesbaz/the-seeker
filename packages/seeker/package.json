@@ -5,15 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "node app.js"
+    "start": "node app.js",
+    "start:dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "Tales Baz",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "nodemon": "^2.0.2"
   },
   "dependencies": {
-    "fastify": "^2.11.0"
+    "fastify": "^2.11.0",
+    "kafkajs": "^1.11.0"
   }
 }
