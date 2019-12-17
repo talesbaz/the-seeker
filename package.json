@@ -6,6 +6,11 @@
     "bootstrap": "lerna bootstrap"
   },
   "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-react": "^1.1.7",
+    "eslint-config-yara": "^2.3.2",
+    "eslint-plugin-jest": "^23.1.1",
+    "eslint-plugin-react": "^7.17.0",
     "lerna": "^3.19.0"
   }
 }
